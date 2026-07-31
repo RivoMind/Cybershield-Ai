@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // ── Performance: output tracing root to silence lockfile warning ──
-  outputFileTracingRoot: process.cwd(),
-
   // ── Compiler: remove console.log in production ────────────────────
   compiler: {
     removeConsole: process.env.NODE_ENV === "production" ? { exclude: ["error", "warn"] } : false,
