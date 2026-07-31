@@ -16,13 +16,13 @@ const columns = [
     ],
   },
   {
-    title: "Company",
+    title: "Rivomind",
     links: [
       { label: "About", href: "#" },
       { label: "Mission", href: "#" },
       { label: "Roadmap", href: "#" },
       { label: "Documentation", href: "#" },
-      { label: "Careers", href: "#", badge: "Coming Soon" },
+      { label: "Rivomind Careers", href: "#", badge: "Coming Soon" },
     ],
   },
   {
