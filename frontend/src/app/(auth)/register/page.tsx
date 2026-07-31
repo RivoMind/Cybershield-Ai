@@ -43,7 +43,7 @@ export default function RegisterPage() {
     setLoading(true);
     setError(null);
     try {
-     const res = await fetch("http://localhost:4000/api/v1/auth/register", {
+     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api/v1"}/auth/register`, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   credentials: "include",
