@@ -38,9 +38,9 @@ const columns = [
   {
     title: "Connect",
     links: [
-      { label: "LinkedIn", href: "#" },
-      { label: "X", href: "#" },
-      { label: "Email", href: "#" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/company/rivomind" },
+      { label: "X", href: "https://x.com/RivoMind" },
+      { label: "Email", href: "mailto:office.rivomind@gmail.com" },
       { label: "Demo Video", href: "#" },
     ],
   },
@@ -101,7 +101,7 @@ export function PremiumFooter() {
 
             {/* Center: Built with love */}
             <p className="text-xs text-[#B6B8C4]/70 text-center">
-              Built with <span className="text-[#EC9AA3]">❤️</span> for a safer digital India.
+              Built with <span className="text-[#EC9AA3]">❤️</span> by RivoMind
             </p>
 
             {/* Right: Version */}
